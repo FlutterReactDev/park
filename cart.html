@@ -23,7 +23,7 @@
   <body id="bg" class="bg__menu">
 
     <div class="bottom__block" id="bottom__block">
-      <div class="container">
+      <div class="container" id="cart__price">
         <div class="bottom__flex">
           <div class="bottom__flex_block">  
             <div class="bottom__price">
@@ -52,9 +52,19 @@
       </div>
     </div>
 
+
+
+    <!-- <div id="modal-2" class="modal">
+
+      <div class="modal-content">
+        
+        <p>Some text in the Modal..</p>
+      </div>
+    
+    </div> -->
     <div class="modul-7">
       <div class="modal-is2">
-        <div class="closes"><img src="img/cart/plus.svg" alt=""></div>
+        <div class="closes"><img src="img/cart/close_modal.svg" alt=""></div>
         <div class="iss2">
                         <div class="slick is"><img src="img/slider/slider.png"></div>
                         <div class="slick is"><img src="img/slider/slider.png"></div>
@@ -98,33 +108,9 @@
                   </div>
     </div>
 
-    <div class="burger">
-        <i>
-          <svg width="27" height="20" viewBox="0 0 27 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0.811768 0.24707V4.14349H26.7879V0.24707H0.811768ZM0.811768 8.03991V11.9363H26.7879V8.03991H13.7998H0.811768ZM0.811768 15.8327V19.7292H26.7879V15.8327H0.811768Z" fill="white"/>
-          </svg>
-            
-        </i>
-            <i>
-              <svg width="27" height="26" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <g clip-path="url(#clip0_222_4592)">
-              <g clip-path="url(#clip1_222_4592)">
-              <path d="M26.1875 4.29447L22.7055 0.8125L14 9.51803L5.29447 0.8125L1.8125 4.29447L10.518 13L1.8125 21.7055L5.29447 25.1875L14 16.482L22.7055 25.1875L26.1875 21.7055L17.482 13L26.1875 4.29447Z" fill="#383552"/>
-              </g>
-              </g>
-              <defs>
-              <clipPath id="clip0_222_4592">
-              <rect width="26.7879" height="26" fill="white"/>
-              </clipPath>
-              <clipPath id="clip1_222_4592">
-              <rect width="26" height="26" fill="white" transform="translate(1)"/>
-              </clipPath>
-              </defs>
-              </svg>
+   
   
-        </i> 
-      </div>
-  
+   
       <nav class="mt-mobile nav-open">
             
         <div class="mt-munu-mb">
@@ -135,14 +121,17 @@
               <div class="burger__address_wrap">
             
                   <div class="footer__address burger__address">
-                    г. Краснодар
+                    8 (861) 205-13-79
                   </div>
           
                   <a href="#" class="footer__mail burger__mail">info@agatpak.ru</a>
           
               
               </div>
-  
+              <div class="header-navigation__close">
+                <img src="img/nav-close.svg"/>
+              </div>
+            </div>
               <div class="accordion">
                 <div class="item">
                 
@@ -152,7 +141,14 @@
                   
                   <div class="hidden-box">
                     <p>
-                      Ants create highly organised colonies, divide labour and organise effective communication systems. This allows them to solve complex issues and colonise almost the entire planet.ed eusocial communities on Solana. We strive create the most efficient &amp; productive DAO with a complex role division system
+                      <ul class="podmenu"> 
+                        <li><a href="#">Бытовая химия</a></li>
+                        <li><a href="#">Растительное масло, соусы</a></li>
+                        <li><a href="#">Хлебобулочная продукция</a></li>
+                        <li><a href="#">Фрукты и овощи</a></li>
+                        <li><a href="#">Мясо и мясные продукты</a></li>
+                        <li><a href="#">Замороженные продукты</a></li>
+                      </ul>
                     </p>
                     
                   </div>
@@ -166,7 +162,14 @@
                   
                   <div class="hidden-box">
                     <p>
-                      Each SolAnt will be unique with 200+ traits from 20+ celebrity-like looks. You will be able to mint the complete looks or the combination of several 
+                      <ul class="podmenu"> 
+                        <li><a href="#">Бытовая химия</a></li>
+                        <li><a href="#">Растительное масло, соусы</a></li>
+                        <li><a href="#">Хлебобулочная продукция</a></li>
+                        <li><a href="#">Фрукты и овощи</a></li>
+                        <li><a href="#">Мясо и мясные продукты</a></li>
+                        <li><a href="#">Замороженные продукты</a></li>
+                      </ul>
                     </p>
                   </div>
                 </div>
@@ -179,7 +182,14 @@
                   </p>
                   <div class="hidden-box">
                     <p>
-                      Each of the four classes will have its own sub-colony with a separate community and leaders. The sub-colonies will then decide whether to partner or compete with others, which projects to realize, etc. 
+                      <ul class="podmenu"> 
+                        <li><a href="#">Бытовая химия</a></li>
+                        <li><a href="#">Растительное масло, соусы</a></li>
+                        <li><a href="#">Хлебобулочная продукция</a></li>
+                        <li><a href="#">Фрукты и овощи</a></li>
+                        <li><a href="#">Мясо и мясные продукты</a></li>
+                        <li><a href="#">Замороженные продукты</a></li>
+                      </ul>
                     </p>
                   </div>
                 </div>
@@ -205,7 +215,7 @@
                 </li>
               </ul>
         
-            </div>
+           
               
           </div>  
         </div>  
@@ -229,11 +239,7 @@
               <div class="header__block">
                 <div class="header__logo"><a href="#"><img src="img/header/logo.png" alt=""></a></div>
   
-                <form action="" class="service__form header__service__form service__mobile">
-                  <input type="search" placeholder="Я ищу..." class="service__input">
-                  <button class="service__btn"><img src="img/service/service_input.svg" alt=""></button>
-                </form>
-  
+          
   
                 <ul class="header__menu">
                   <li onmouseover="hoverOnleft()" onmouseout="hoverOffleft()">
@@ -338,13 +344,50 @@
                       </div>
                     </div>
                   </li>
-                  <li><a href="#">Упаковочные материалы </a></li>
+                  <li onmouseover="hoverOnleft()" onmouseout="hoverOffleft()">
+                    <a href="#">Упаковочные материалы </a>
+  
+                    <div class="catalog__menu_wrap">
+                      <div class="cataglog__menu_inner">
+                        <div class="catalog__menu-content">
+                          <h1>Упаковочные материалы</h1>
+                              <div class="cartalog__menu_block">
+                                <ul class="catalog__menu">
+                                  <li><a href="#">Упаковочные пленки</a></li>
+                                  <li><a href="#">Вакуумные пакеты</a></li>
+                                  <li><a href="#">Упаковочные материалы для HoReCa</a></li>
+                                  <li><a href="#">Стреппинг упаковка</a></li>
+                                </ul>
+                
+                                <ul class="catalog__menu">
+                                  <li><a href="#">Упаковка металлической лентой</a></li>
+                                  <li><a href="#">Скотч упаковочный</a></li>
+                                  <li><a href="#">Упаковка для овощей и фруктов</a></li>
+                                  <li><a href="#">Этикетка и инструмент для маркировки</a></li>
+                                  <li><a href="#">Свариватели (запайщики)</a></li>
+                                </ul>
+                
+                                <ul class="catalog__menu">
+                                  <li><a href="#">Перчатки</a></li>
+                                  <li><a href="#">Приспособления для упаковки (аксессуары)</a></li>
+                                </ul>
+                              </div>  
+                        </div>
+                              
+                      </div>
+                    </div>
+                  
+                  </li>
                   <li><a href="#">Сервис и запчасти </a></li>
   
                 </ul>
               </div>
   
               <div class="header__block">
+                <form action="" class="service__form header__service__form ">
+                  <input type="search" placeholder="Я ищу..." class="service__input">
+                  <button class="service__btn"><img src="img/service/service_input.svg" alt=""></button>
+                </form>
                 <a href="#" class="phone__mobile"><img src="img/header/ph_mobile.svg" alt=""></a>
   
                
@@ -376,8 +419,8 @@
                   </ul>
                 </nav>
   
-                <nav class="nav">
-                  <ul class="navigation">
+                <nav class="nav nav-ds-menu">
+                  <ul class="navigation" >
                   
                     <li><a class="header__menu2" href="javascript:void(0);"><img src="img/header/menu.svg" alt=""> <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                       <ul>
@@ -408,6 +451,32 @@
                   </ul>
                 </nav>
   
+                <div class="nav-mobi-burger">
+                  <i>
+                    <svg width="27" height="20" viewBox="0 0 27 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.811768 0.24707V4.14349H26.7879V0.24707H0.811768ZM0.811768 8.03991V11.9363H26.7879V8.03991H13.7998H0.811768ZM0.811768 15.8327V19.7292H26.7879V15.8327H0.811768Z" fill="white"/>
+                    </svg>
+                      
+                  </i>
+                      <i>
+                        <svg width="27" height="26" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_222_4592)">
+                        <g clip-path="url(#clip1_222_4592)">
+                        <path d="M26.1875 4.29447L22.7055 0.8125L14 9.51803L5.29447 0.8125L1.8125 4.29447L10.518 13L1.8125 21.7055L5.29447 25.1875L14 16.482L22.7055 25.1875L26.1875 21.7055L17.482 13L26.1875 4.29447Z" fill="#383552"/>
+                        </g>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_222_4592">
+                        <rect width="26.7879" height="26" fill="white"/>
+                        </clipPath>
+                        <clipPath id="clip1_222_4592">
+                        <rect width="26" height="26" fill="white" transform="translate(1)"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+            
+                  </i> 
+                </div>
   
               </div>
             </div>
@@ -443,7 +512,18 @@
             <div class="cart__wrap">
                 
                 <div class="cart__block">
-                    
+                    <div class="cart__icon">
+                      <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_417_2549)">
+                        <path d="M18 0C8.05887 0 0 8.05887 0 18C0 27.9411 8.05887 36 18 36C27.9411 36 36 27.9411 36 18C36 8.05887 27.9411 0 18 0ZM21.9837 10.3051C24.1225 10.2717 26.0568 11.4345 26.9738 13.4168C27.822 16.0375 27.1121 18.7036 25.6162 20.7128C24.6289 22.0753 23.4488 23.2503 22.2424 24.277C21.1325 25.3102 18.6482 27.3547 17.9897 27.4115C17.4078 27.3002 16.7546 26.6411 16.2926 26.3024C13.6965 24.329 10.9025 21.9302 9.48558 19.3062C8.29755 16.7871 8.29539 13.6703 10.1444 11.739C12.5419 9.57756 16.1561 10.0006 17.9897 12.2587C18.4822 11.6199 19.0879 11.1168 19.8066 10.7507C20.535 10.46 21.2707 10.3162 21.9837 10.3051Z" fill="#E8E8EA"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_417_2549">
+                        <rect width="36" height="36" fill="white"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+                    </div>
                      <div class="iss">
                       
                         <div class="slick is"><img src="img/slider/slider.png"></div>
@@ -656,13 +736,13 @@
 
     
     <section class="description">
-        <div class="container" data-aos="zoom-out">
+        <div class="container">
             <h1>Описание</h1>
-            <div class="description__body">
+            <div class="description__body" data-aos="fade-down">
                 Техника спроектирована для работы в полуавтоматическом режиме на линиях производства и фасовки сливочного масла, спреда и маргарина. Аппарат группирует штучные изделия и укладывает готовую продукцию в коробки. Техника спроектирована для работы в полуавтоматическом режиме на линиях производства и фасовки сливочного масла, спреда и маргарина. Аппарат группирует штучные изделия и укладывает готовую продукцию в коробки.
             </div>
 
-            <div class="description__info">
+            <div class="description__info" data-aos="fade-down">
                 Информация о товарах, размещенная на сайте, не является публичной офертой. <br>
                 Уточняйте характеристики и актуальную стоимость товаров у наших менеджеров перед оформлением заказа.
 
@@ -672,11 +752,11 @@
 
 
     <section class="character" id="harak">
-        <div class="container" data-aos="zoom-out-up">
+        <div class="container">
             <h1>Характеристики</h1>
 
             <div class="character__wrap">
-                <div class="character__block">
+                <div class="character__block character__block-mob" data-aos="fade-down">
                     <div class="character__info">
                         <div class="character__title">
                             Размеры   
@@ -743,7 +823,7 @@
                     </div>
                 </div>
 
-                <div class="character__block character__block3">
+                <div class="character__block character__block3" data-aos="zoom-out-up">
                     <div class="character__info">
                         <div class="character__title">
                             Размеры   
@@ -810,7 +890,7 @@
                     </div>
                 </div>
 
-                <div class="character__block character__block2">
+                <div class="character__block character__block2" data-aos="zoom-out-up">
                     <div class="character__info">
                         <div class="character__title">
                             Размеры   
@@ -882,17 +962,17 @@
 
 
     <section class="diagram">
-        <div class="container" data-aos="zoom-out-down">
-            <h1>Схема</h1>
-            <div class="diagram"><img src="img/cart/diagram.svg" alt=""></div>
+        <div class="container">
+            <h1 >Схема</h1>
+            <div class="diagram"><img src="img/cart/diagram.svg" alt=""  data-aos="fade-down"></div>
         </div>
     </section>
 
     <section class="same" id="model">
-        <div class="container" data-aos="zoom-out-right">
-            <h1>Совместимость</h1>
+        <div class="container">
+            <h1 >Совместимость</h1>
 
-            <div class="same__wrap">
+            <div class="same__wrap"  data-aos="fade-down">
                 <div class="same__block">
                     <div class="same__title">
                         FASA РМ-01    
@@ -988,17 +1068,17 @@
 
 
 
-    <section class="product">
-        <div class="container"><h1>Сопутствующие товары</h1></div>
-        <div class="container product__container" data-aos="fade-down"> 
+    <section class="product product__cart">
+        <div class="container"><h1 data-aos="fade-down">Сопутствующие товары</h1></div>
+        <div class="container product__container"> 
           
           <div class="slider slider_products">
             <div>
-              <div class="product__wrap">
+              <div class="product__wrap product__wrap_no" data-aos="fade-down">
                 <button class="product__like"><img src="img/product/like.svg" alt=""></button>
                 <div class="product__img"><img src="img/product/product.png" alt=""></div>
                 <div class="product__article">Артикул: APE 02.38.000-01</div>
-                <div class="product__title title">Колпачок конический Rotoplat </div>
+                <div class="product__title product__title3 title">Колпачок конический Rotoplat </div>
                 <div class="product__item">В наличии</div>
                 <div class="prduct__price title">
                   1 510 ₽ / шт.
@@ -1008,11 +1088,11 @@
             </div>
   
             <div>
-              <div class="product__wrap">
+              <div class="product__wrap product__wrap_no" data-aos="fade-down">
                 <button class="product__like"><img src="img/product/like.svg" alt=""></button>
                 <div class="product__img"><img src="img/product/product2.png" alt=""></div>
                 <div class="product__article product__article2">Артикул: APE 02.38.000-01</div>
-                <div class="product__title product__title2 title">Соединительная головка  Rotoplat </div>
+                <div class="product__title product__title2 product__title3 title">Соединительная головка  Rotoplat </div>
                 <div class="product__item">В наличии</div>
                 <div class="prduct__price title">
                   1 510 ₽ / шт.
@@ -1022,11 +1102,11 @@
             </div>
   
             <div>
-              <div class="product__wrap">
+              <div class="product__wrap product__wrap_no" data-aos="fade-down">
                 <button class="product__like"><img src="img/product/like.svg" alt=""></button>
                 <div class="product__img"><img src="img/product/product3.png" alt=""></div>
                 <div class="product__article product__article2">Артикул: APE 02.38.000-01</div>
-                <div class="product__title product__title2 title">Ролик вращения платформы Rotoplat (двойной)  </div>
+                <div class="product__title product__title2 product__title3 title">Ролик вращения платформы Rotoplat (двойной)  </div>
                 <div class="product__item">В наличии</div>
                 <div class="prduct__price title">
                   1 510 ₽ / шт.
@@ -1036,11 +1116,11 @@
             </div>
   
             <div>
-              <div class="product__wrap">
+              <div class="product__wrap product__wrap_no" data-aos="fade-down">
                 <button class="product__like"><img src="img/product/like.svg" alt=""></button>
                 <div class="product__img"><img src="img/product/product4.png" alt=""></div>
                 <div class="product__article product__article2">Артикул: APE 02.38.000-01</div>
-                <div class="product__title product__title2 title">Тензодатчик каретки предрастяжения Rotoplat  </div>
+                <div class="product__title product__title2 product__title3 title">Тензодатчик каретки предрастяжения Rotoplat  </div>
                 <div class="product__item">В наличии</div>
                 <div class="prduct__price title">
                   1 510 ₽ / шт.
@@ -1050,11 +1130,11 @@
             </div>
   
             <div>
-              <div class="product__wrap">
+              <div class="product__wrap product__wrap_no" data-aos="fade-down">
                 <button class="product__like"><img src="img/product/like.svg" alt=""></button>
                 <div class="product__img"><img src="img/product/product.png" alt=""></div>
                 <div class="product__article">Артикул: APE 02.38.000-01</div>
-                <div class="product__title title">Колпачок конический Rotoplat </div>
+                <div class="product__title product__title3 title">Колпачок конический Rotoplat </div>
                 <div class="product__item">В наличии</div>
                 <div class="prduct__price title">
                   1 510 ₽ / шт.
